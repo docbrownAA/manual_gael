@@ -1,5 +1,8 @@
 package com.example.demo.model;
 
-public class AuthProvider {
-
+public enum AuthProvider {
+	local,
+	facebook,
+	google,
+	github
 }
